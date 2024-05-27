@@ -64,7 +64,7 @@ This repository contains a Java-based Password Generator application that allows
 Feel free to contribute to this project by submitting pull requests with new features, enhancements, or bug fixes! Your feedback and contributions are highly appreciated.
 
 
-##DOCUMENTATION
+## DOCUMENTATION
 
 Password Generator Implementation
 The Password Generator is a Java application designed to generate secure passwords based on user preferences. It offers a command-line interface where users can specify the types of characters they want in their passwords and their length. Additionally, it provides functionality to check the strength of a given password.
@@ -72,10 +72,15 @@ Classes Overview:
 1.	Alphabet: This class defines the character sets from which passwords can be generated. It provides options for including uppercase letters, lowercase letters, numbers, and symbols. The getAlphabet() method returns the concatenated character set based on user preferences.
 2.	Password: The Password class represents a password string. It includes methods to calculate the strength of the password based on various criteria such as length, character types, and complexity.
 3.	Generator: This class serves as the main controller of the application. It interacts with the user through the command-line interface, generates passwords based on user input, and checks the strength of passwords. It utilizes instances of the Alphabet and Password classes to perform these operations.
+4.	
 Design Choices:
+
 •	Alphabet Class: The Alphabet class was designed to encapsulate the logic for generating character sets. By providing a flexible constructor that accepts parameters for including different types of characters, it allows for easy customization of character sets based on user preferences.
+
 •	Password Class: The Password class was designed to encapsulate the logic for password strength calculation. It uses simple heuristics such as password length and the presence of different character types to determine the strength of a password.
+
 •	Generator Class: The Generator class serves as the main entry point of the application. It provides methods for generating passwords and checking their strength. It also handles user input and output through the command-line interface.
+
 The Password Generator application provides a simple yet effective solution for generating secure passwords tailored to user preferences. By allowing users to specify the types of characters and the length of passwords, it offers flexibility and customization. Through robust design choices and thorough testing, the application ensures reliability and security in generating passwords.
 
 
