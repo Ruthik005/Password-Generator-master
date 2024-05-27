@@ -17,7 +17,7 @@ This repository contains a Java-based Password Generator application that allows
 1. Clone the repository:
 
    bash
-   git clone https://github.com/your-username/Password-Generator.git
+   git clone  https://github.com/Ruthik005/Password-Generator-master.git
    
 
 2. Navigate to the project directory:
